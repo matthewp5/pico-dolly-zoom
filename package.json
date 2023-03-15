@@ -1,0 +1,17 @@
+{
+  "name": "pico-dolly-zoom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm ./bundle.js",
+    "flash": "npm run clean && npx kaluma bundle ./src/index.js && npx kaluma flash ./bundle.js --shell",
+    "erase": "npx kaluma erase"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@kaluma/cli": "^1.3.0",
+    "prettier": "2.8.3"
+  }
+}
