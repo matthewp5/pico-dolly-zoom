@@ -25,7 +25,7 @@ By utilising a microcontroller, we can automate the zoom and focus aspects of th
 The following equipment is used to run the servos and attach them to the camera:
 
 - Raspberry Pi Pico
-- 2x MG996R 180° ****servo
+- 2x MG996R 180° servo
 - 2x Servo bracket for 15mm rod
 - 2x 56 tooth gear for servo
 - Battery Holder 3xAA with MicroUSB  (to power the Pico)
