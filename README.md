@@ -14,7 +14,7 @@ The 'dolly-zoom' shot is a notorious technique in cinema that is frequently empl
 
 Executing a 'dolly-zoom' shot necessitates the involvement of at least three crew members: one to handle the zoom adjustment, another to control the focus, and a third to operate the camera dolly for forward movement.
 
-<img src="https://github.com/matthewp5/pico-dolly-zoom/assets/77885910/51c09a5e-cc85-4a04-a1fb-eb758649c55c" width="512" />
+<img src="https://github.com/matthewp5/pico-dolly-zoom/assets/77885910/60b2e79f-d050-476e-8a94-698fbfd8eb83" width="512" />
 
 *Behind-the-scenes photo of the Jaws example above. Cinematographer Bill Butler is aided by 4 members of crew to achieve the iconic shot.*
 
@@ -32,9 +32,9 @@ The following equipment is used to run the servos and attach them to the camera:
 - Battery Holder 4xAA with jumper header wires (to power the servos)
 - Lots and lots of jumper cables
 
-You can see this equipment used in the set-up photos below:
+You can see this equipment used in the set-up photo below:
 
-<img src="https://github.com/matthewp5/pico-dolly-zoom/assets/77885910/61ad7c83-2676-4893-b93a-5fc9305e432f" width="512" />
+<img src="https://github.com/matthewp5/pico-dolly-zoom/assets/77885910/c61744f0-54d1-4e11-b8d1-52451847762d" width="512" />
 
 *The system uses servos that are mounted using 3D-printed brackets. These brackets securely attach to the 15mm rails located beneath the camera, which is a standard component in filmmaking equipment.*
 
@@ -46,7 +46,7 @@ The code is currently calibrated for a Sigma 18-35mm lens moving forward on a 60
 
 You can see an example of the device in action in the GIF below, which is an excerpt from a short film I made!
 
-![Example](https://github.com/matthewp5/pico-dolly-zoom/assets/77885910/14b063ce-7969-4e5f-a684-8f9e1d348e1b)
+![Example](https://github.com/matthewp5/pico-dolly-zoom/assets/77885910/5686159f-13e5-4965-9c1d-55993189fe72)
 
 *The effect is far less pronounced on a 60cm rail but still adds emphasis to the shot.*
 
