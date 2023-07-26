@@ -24,12 +24,12 @@ By utilising a microcontroller, we can automate the zoom and focus aspects of th
 
 The following equipment is used to run the servos and attach them to the camera:
 
-- Raspberry Pi Pico
-- 2x MG996R 180° servo
+- [Raspberry Pi Pico](https://thepihut.com/products/raspberry-pi-pico?variant=41925332566211)
+- 2x [MG996R 180° servo](https://thepihut.com/products/towerpro-servo-motor-mg996r-metal-gear-180)
 - 2x Servo bracket for 15mm rod
 - 2x 56 tooth gear for servo
-- Battery Holder 3xAA with MicroUSB  (to power the Pico)
-- Battery Holder 4xAA with jumper header wires (to power the servos)
+- [Battery Holder 3xAA with MicroUSB](https://thepihut.com/products/microusb-battery-holder-3xaa) (to power the Pico)
+- [Battery Holder 4xAA with jumper header wires](https://thepihut.com/products/4xaa-battery-holder-square) (to power the servos)
 - Lots and lots of jumper cables
 
 You can see this equipment used in the set-up photo below:
@@ -57,4 +57,4 @@ This movement could be automated even further by utilising an ultrasonic distanc
 1. Measure the distance in real-time between the camera and the subject using the ultrasonic distance sensor.
 2. Integrate the distance measurements obtained from the ultrasonic sensor into the zoom and focus adjustment mechanism.
 
-As a starting point, the `US100.js` file included in the repository to gather readings from the US100 ultrasonic distance sensor.
+As a starting point, the [`US100.js`](https://github.com/matthewp5/pico-dolly-zoom/blob/07811d97afe560dde5322dc7781ab0b7f32b3f1a/src/US100.js) file included in the repository to gather readings from the US100 ultrasonic distance sensor.
